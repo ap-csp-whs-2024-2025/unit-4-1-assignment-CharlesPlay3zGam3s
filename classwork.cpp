@@ -16,10 +16,10 @@ int main()
 add_xy = x+y;
 sub_xy = x - y;
 std::cout << add_xy << std::endl
-<< sub_xy << std::endl
-<<mult_xy << std::endl
-<<div_xy << std::endl
-<<mod_xy << std:endl;
+          << sub_xy << std::endl
+          <<mult_xy << std::endl
+          <<div_xy << std::endl
+          <<mod_xy << std:endl;
 
   //Exercise 2
   bool isSunny = true;
