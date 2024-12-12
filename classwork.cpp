@@ -3,14 +3,31 @@
 
 int main()
 {
-  // write code here
- int age = 10; //SET age to 10
-double price = 19.99; 
-bool isRaining = false; 
+  int x;
+  int y;
+  int add_xy;
+  int sub_xy;
+  int mult_xy;
+  int div_xy
+  int mod_xy;
 
-std::cout << age << "\n" <<price << "\n" << isRaining << std::endl; //cout allows to
+  x = 25;
+  y = 5;
+add_xy = x+y;
+sub_xy = x - y;
+std::cout << add_xy << std::endl
+<< sub_xy << std::endl
+<<mult_xy << std::endl
+<<div_xy << std::endl
+<<mod_xy << std:endl;
 
-int grade_level = 12;
- std::cout << "I am a " << grade_level << "th grader." << std::endl;
+  //Exercise 2
+  bool isSunny = true;
+  bool hasUmbrella = false;
+  std::cout << (iSunny && hasUmbrella) << std::endl;
+
+  bool sun_or_umb = isSunny || hasUmbrella;
+  std::cout << sun_or_umb << "\n";
+
   return 0;
 }
